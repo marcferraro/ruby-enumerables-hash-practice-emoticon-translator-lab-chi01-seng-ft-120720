@@ -15,10 +15,10 @@ def get_english_meaning(data, emoticon)
   
   if sorted_emoticons.each do |emoticon_key|
       emoticon_key[1].key(emoticon)
-      returns emoticon_key[0]
+      return emoticon_key[0]
     end
   end
-  returns "Sorry, that emoticon was not found"
+  return "Sorry, that emoticon was not found"
 end
 
 def get_japanese_emoticon(data, emoticon)
