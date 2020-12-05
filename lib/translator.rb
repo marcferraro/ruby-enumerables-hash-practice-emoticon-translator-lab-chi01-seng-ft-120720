@@ -15,13 +15,13 @@ def get_english_meaning(data, emoticon)
   
   if sorted_emoticons.each do |emoticon_key|
       emoticon_key[1].key(emoticon)
-      puts emoticon_key[0]
-      binding.pry
+      returns emoticon_key[0]
     else
       puts "Sorry, that emoticon was not found"
     end
   end
   end
+  
 end
 
 def get_japanese_emoticon(data, emoticon)
