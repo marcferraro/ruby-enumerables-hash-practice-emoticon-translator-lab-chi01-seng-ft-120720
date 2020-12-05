@@ -16,6 +16,7 @@ def get_english_meaning(data, emoticon)
   if sorted_emoticons.each do |emoticon_key|
       emoticon_key[1].key(emoticon)
       return emoticon_key[0]
+      
     end
   end
   return "Sorry, that emoticon was not found"
