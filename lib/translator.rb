@@ -13,8 +13,8 @@ end
 def get_english_meaning(data, emoticon)
   sorted_emoticons = load_library(data)
   
-  if sorted_emoticons.each do |emoticon_key|
-      emoticon_key[1].key(emoticon)
+  sorted_emoticons.each do |emoticon_key|
+      if emoticon_key[1].key(emoticon)
       binding.pry
       return emoticon_key[0]
     end
