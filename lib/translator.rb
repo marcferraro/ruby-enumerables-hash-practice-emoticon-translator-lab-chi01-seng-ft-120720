@@ -22,7 +22,14 @@ def get_english_meaning(data, emoticon)
 end
 
 def get_japanese_emoticon(data, emoticon)
-  # code goes here
   
-  #binding.pry
+  sorted_emoticons = load_library(data)
+  
+  sorted_emoticons.each do |key, value|
+    binding.pry
+  end
+  
+  
+  
+  
 end
