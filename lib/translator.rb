@@ -15,7 +15,7 @@ def get_english_meaning(data, emoticon)
   
   sorted_emoticons.each do |emoticon_key|
       if emoticon_key[1].key(emoticon)
-      binding.pry
+      #binding.pry
       return emoticon_key[0]
     end
   end
