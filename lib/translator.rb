@@ -26,7 +26,8 @@ def get_japanese_emoticon(data, emoticon)
   sorted_emoticons = load_library(data)
   
   sorted_emoticons.each do |key, value|
-    if value.
+    if value.key(emoticon)
+      return emoticon_key[]
     binding.pry
   end
   
