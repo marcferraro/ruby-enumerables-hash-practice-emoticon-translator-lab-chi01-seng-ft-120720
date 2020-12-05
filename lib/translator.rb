@@ -31,10 +31,6 @@ def get_japanese_emoticon(data, emoticon)
       return sorted_emoticons[key][:japanese]
     #binding.pry
     end
-    return "Sorry, that emoticon was not found"
   end
-  
-  
-  
-  
+  return "Sorry, that emoticon was not found"
 end
