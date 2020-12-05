@@ -30,6 +30,7 @@ def get_japanese_emoticon(data, emoticon)
       binding.pry
       #return emoticon_key[]
     binding.pry
+    end
   end
   
   
