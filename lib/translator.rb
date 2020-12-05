@@ -18,7 +18,7 @@ def get_english_meaning(data, emoticon)
       returns emoticon_key[0]
     end
   end
-  puts "Sorry, that emoticon was not found"
+  returns "Sorry, that emoticon was not found"
 end
 
 def get_japanese_emoticon(data, emoticon)
